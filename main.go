@@ -47,7 +47,7 @@ func MailSend()  {
 	config["signType"]="normal"
 
 	submail := mail.CreateSend(config)
-	submail.SetForm("service@submail.cn","submail")
+	submail.SetSender("service@submail.cn","submail")
 	submail.AddTo("xxx@qq.com","Leo")
 	submail.SetSubject("test from go sdks 2")
 	submail.AddCc("xxx@gmail.com")
@@ -85,7 +85,7 @@ func SMSSend() {
 }
 
 func main()  {
-	//SMSSend()
+	SMSSend()
 	//MailSend()
 	//VoiceSend()
 	//InterSMSSend()
