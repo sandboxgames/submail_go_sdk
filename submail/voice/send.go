@@ -1,7 +1,7 @@
 package voice
 
 import (
-	lib "submail_go_sdk/submail/lib"
+	lib "github.com/sandboxgames/submail_go_sdk/submail/lib"
 )
 
 type send struct {

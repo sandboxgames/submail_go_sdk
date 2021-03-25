@@ -3,7 +3,7 @@ package mail
 import (
 	"encoding/json"
 	"fmt"
-	lib "submail_go_sdk/submail/lib"
+	lib "github.com/sandboxgames/submail_go_sdk/submail/lib"
 	"strings"
 )
 

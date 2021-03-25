@@ -2,7 +2,7 @@ package sms
 
 import (
 	"encoding/json"
-	lib "submail_go_sdk/submail/lib"
+	lib "github.com/sandboxgames/submail_go_sdk/submail/lib"
 )
 
 type xsend struct {
